@@ -1,0 +1,81 @@
+/* login.css */
+
+/* Estilo para o contêiner da página de login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Cor de fundo da página */
+}
+
+/* Estilo para o formulário de login */
+.login-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Estilo para o título "Login" */
+.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para campos de entrada de texto */
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilo para o botão de login */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Estilo para o link "Esqueceu sua senha?" */
+.forgot-password {
+  font-size: 14px;
+  color: #007bff; /* Cor do link */
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Estilo para mensagens de erro */
+.error-message {
+  color: #ff0000; /* Cor do texto de erro */
+  margin-top: 10px;
+}
+
+/* Estilo para o rodapé (opcional) */
+.login-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+.custom-register1-button {
+  width: 100%;
+  max-width: 100px;
+  margin: 0; /* Defina a margem como 0 para remover margens */
+  display: flex;
+  justify-content: flex-start; /* Alinhe o botão à esquerda horizontalmente */
+  align-items: center; /* Centralize verticalmente */
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+}

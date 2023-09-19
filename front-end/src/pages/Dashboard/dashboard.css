@@ -1,0 +1,170 @@
+/* dashboard.css */
+
+/* Reset de margem e preenchimento */
+body, div, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para o corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilo para a barra lateral esquerda */
+  aside {
+    width: 250px;
+    min-height: 100vh;
+    background-color: #2d3e50; /* Azul escuro */
+    color: #fff;
+    position: fixed;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  aside a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  aside .fs-4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  /* Estilo para os links da barra lateral */
+  aside .nav-link {
+    color: #fff !important;
+  }
+  
+  /* Estilo para o conteúdo principal à direita */
+  main {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  
+  /* Estilo para os cards */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Cinza escuro */
+  }
+  
+  /* Estilo para os gráficos */
+  .chart-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Estilo para o seletor de ano */
+  .w-50 {
+    max-width: 200px;
+  }
+  
+  /* Estilo para o botão "Sair" no menu suspenso */
+  .nav-dropdown-light-example .dropdown-menu {
+    background-color: #f7f7f7;
+  }
+  
+  .nav-dropdown-light-example .dropdown-item {
+    color: #333; /* Cinza escuro */
+  }
+  
+  /* Estilo para a seção de gráficos */
+  .graph-section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para os gráficos de linha */
+  .chart-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Cinza escuro */
+  }
+  
+  /* Estilo para o seletor de mês */
+  .month-selector {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333; /* Azul escuro */
+    color: #fff;
+  }
+  
+  /* Estilo para tornar a barra lateral responsiva */
+  @media (max-width: 768px) {
+    aside {
+      width: 100%;
+      position: relative;
+      min-height: auto;
+    }
+  
+    main {
+      margin-left: 0;
+    }
+  }
+  .field-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .field-value {
+    font-size: 24px;
+    color: #2c3e50;
+  }
+  
+  /* dashboard.css */
+
+/* ... outras regras CSS ... */
+
+.field-section {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.field-section .field-label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.field-section .field-value {
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+/* ... outras regras CSS ... */
+
+.navbar .nav-item:last-child .nav-link {
+  color: #fff; /* Cor do texto do botão */
+  font-weight: bold;
+}
